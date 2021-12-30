@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_media_teksts",
+  "info": {
+    "displayName": "Media / Tekst",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Tekst": {
+      "type": "richtext"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
