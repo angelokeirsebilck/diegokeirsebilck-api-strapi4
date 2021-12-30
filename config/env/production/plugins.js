@@ -17,6 +17,7 @@ module.exports = ({ env }) => ({
       apolloServer: {
         tracing: false,
         introspection: true,
+        playgroundAlways: true,
       },
     },
   },
