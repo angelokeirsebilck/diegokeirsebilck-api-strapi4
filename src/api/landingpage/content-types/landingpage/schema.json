@@ -4,7 +4,8 @@
   "info": {
     "singularName": "landingpage",
     "pluralName": "landingpages",
-    "displayName": "Landingpage"
+    "displayName": "Landingpage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -13,6 +14,9 @@
   "attributes": {
     "titelformulier": {
       "type": "text"
+    },
+    "Titel": {
+      "type": "string"
     }
   }
 }
